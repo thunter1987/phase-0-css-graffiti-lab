@@ -1,1 +1,23 @@
 /* write your override styles here */
+.tag-1 {
+    display: none;
+}
+#tag-2 {
+    z-index: inherit;
+    display: none;
+}
+.parent {
+    z-index: 4;
+    display: none;
+}
+#tag-3 {
+    display: none;
+}
+.parent #tag-5 {
+    z-index: auto;
+    display: none;
+}
+#wall {
+    z-index: auto;
+    display: none;
+}
